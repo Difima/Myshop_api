@@ -51,4 +51,26 @@ Use text-align and margin to place elements on the shop page
 Modify the color of the elements with the balise <color> and the color of your choice
 Use percentage to make responsive the shop
 
+# Manage interface permissions
 
+- Administration interface : 3 Menus --> "PRODUCTS" , "CATEGORIES" et "USERS
+
+    * PRODUCTS brings us back to a table that will contain: - Product
+                                                            - ID
+                                                            - Category
+                                                            - Actions (Edit/Delete)
+
+    * CATEGORIES brings us back to a table that will contain:- ID
+                                                             - Name
+                                                             - Actions (Edit/Delete)
+
+    * USERS brings us back to a table that will contain:- ID
+                                                        - email
+                                                        - Roles
+                                                        - Password
+                                                        -Full Name    
+
+ 
+This interface will allow you to manage the user's permissions. Each user (Administrator / client) connecting
+to the MyShop site will obviously not have the same permissions. The administrator will be able to create, modify or delete items
+present in the table unlike a client who will not have all these permissions.
