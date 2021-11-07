@@ -1,0 +1,323 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+
+/* Header Logo */
+.LOGO {
+    position: relative;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+/* Header Logo */
+
+/* Header panier */
+
+.panier {
+    text-align: right;
+ 
+}
+
+/* Header panier */
+
+/* Header HOME SHOP MAGAZINES LOGIN */
+
+
+.NOM {
+    text-align: center;
+    word-spacing: 400%;
+    font-size: 120%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.LOGIN {
+    text-align: right;
+    font-size: 120%;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Header HOME SHOP MAGAZINES */
+
+/* Header SearchBarre */
+.search {
+    text-align: left;
+    margin-top: 8%;
+}
+.recherche{
+    text-align: left;
+    border-bottom: 3px solid white;
+}
+
+.rechercheInput {
+    text-align: right;
+    height: 70%;
+    width: 60%;
+    border: white;
+    border-bottom: 2px solid black;
+}
+
+
+.BM {
+    text-align: right;
+}
+
+.filtre{
+    font-size: 120%;
+    font-family: 'Courier New', Courier, monospace;
+    border: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+}
+
+.one{
+    text-align: left;
+}
+
+.filtre1{
+    font-size: 130%;
+    border: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    font-size: 120%;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+
+.filtre2{
+    font-size: 130%;
+    border: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    font-size: 120%;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    margin-top: 5%;
+}
+
+
+.filtre3{
+    font-size: 130%;
+    border: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    margin-top: 5%;
+}
+
+
+.pricerange{
+    text-align: left;
+    margin-top: 8%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+}
+
+.SlideContainer {
+    text-align: left;
+    width: 150%;
+    font-family: 'Courier New', Courier, monospace;
+}         
+
+.slider{
+    -webkit-appearance: none; 
+    width: 50%;
+    height: 20%;
+    background: rgb(192, 192, 192);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    border-radius: 12px;
+    box-shadow: 0 1px 10px 1px rgb(90, 90, 90);
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+p{
+    opacity: 0.7;
+}
+
+.slider::-moz-range-thumb{
+    width: 15px;
+    height: 15px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slider::after{
+    content: "300";
+    color: black;
+    font-size: 1rem;
+    position: absolute;
+    left: 22%;
+    top: 30%;
+}
+
+.slider::before{
+    content: "0";
+    color: black;
+    font-size: 1rem;
+    position: absolute;
+    left: 0%;
+    top: 30%;
+}
+
+.max{
+    margin-right: 50%;
+}
+
+.container{
+    height: auto;
+    margin-top: 10%;
+    gap: 8%;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+} 
+
+.image{
+    text-align: center;
+}
+
+.article {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+.price {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: small;
+    
+}
+
+.category {
+    color: rgba(141, 138, 137, 0.877);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: small;
+    text-align: left;
+    margin-bottom: 15%;
+}
+
+.star {
+    text-align: left;
+    margin-bottom: 45%;
+}
+
+.stars {
+    text-align: left;
+    margin-bottom: 15%;
+}
+
+.add{
+    position: relative;
+    bottom: 12%;
+    left: 43%;
+}
+
+
+
+
+
+
+.op1{
+    font-size: 80%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blue{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(90, 157, 233);
+    font-size: 80%;
+}
+.pink{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(223, 95, 138);
+    font-size: 80%;
+}
+.brown{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(102, 41, 41);
+    font-size: 80%;
+}
+.beige{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(238, 201, 153);
+    font-size: 80%;
+}
+.white{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+}
+.gold{
+    font-family: 'Courier New', Courier, monospace;
+    color: gold;
+    font-size: 80%;
+}
+
+.category2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 78%;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5%;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+
+
+.pagination {
+    text-align: center;
+    padding-block: center;
+    padding-bottom: 10%;
+    width: 150%;
+    
+}
+  
+.pagination a {
+    color: black;
+    padding: 2% ;
+    text-decoration: none;
+
+}
+  
+.pagination a.active {
+    background-color: rgb(177, 177, 177);
+    color: white;
+
+}
+  
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
